@@ -91,7 +91,6 @@ rocket-project/
 - [x] Full assembly
 - [x] Launch — school showcase, San Bonifacio, October 2026 (launch site: Finca Cinco Cumbres, Mendoza)
 - [x] Post-launch data analysis
-- [ ] Contact Prof. Guerra-Garcia (MIT AeroAstro) with real flight data
 - [ ] V2: active control (TVC or moving fins), full SD telemetry restored
 
 ## 🛠️ Tools & Software
