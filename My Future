@@ -1,0 +1,13 @@
+🚀 What's Next: Frontera 2
+
+Building on what I learned from Frontera 1's first flight, the next rocket will introduce active flight control instead of passive fin stability alone.
+
+Planned features:
+
+Active control system — either thrust vector control (TVC) or moving fins, actuated in real time during flight
+MPU6050 as the control sensor — instead of just logging data, the IMU will feed a real-time control loop that reacts to the rocket's actual orientation during ascent
+Control theory applied in practice — using Laplace transforms and transfer functions to model and tune the control system, connecting what I've studied in electronics with real flight dynamics
+Full SD telemetry restored — fixing the data logging pipeline so the complete 20Hz time-series is recovered again, not just a flight summary
+A motor candidate already tested in simulation: the Quest D16-4, which showed a stronger stability margin (1.84 cal) in early comparisons — a good fit for a rocket that also has active correction
+
+This project is meant to build directly toward an application to MIT AeroAstro, using real flight data and a working active-control system as the core of the portfolio.
